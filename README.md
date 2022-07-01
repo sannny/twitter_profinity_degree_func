@@ -41,9 +41,9 @@ Here racial slurs is a dictionary.
 Key = Tuple(Sequence)
 Value = profinity score
 
-Here's how the output from the smaple tweet would look like
+Here's how the output from the sample tweet would look like
 ![image](https://user-images.githubusercontent.com/43197031/176900097-36607e67-844e-4c59-abb4-c9c2caa5abd9.png)
 
-##NOTE : I AM NOT A RACIST. JUST WROTE THE GENERAL SLURS TO EXPLAIN THE CONCEPT. 
+## NOTE : I AM NOT A RACIST. JUST WROTE THE GENERAL SLURS TO EXPLAIN THE CONCEPT. 
 
 
