@@ -17,6 +17,8 @@ class Profinity_calculator:
 
 
     def pattern_matching(self, words, index, sentence):
+        if words == None or len(words) == 0 or index == None or str(index).isnumeric() == False or sentence == None:
+            return 0
         search_list = re.split(words[index], sentence)[1:]
         if search_list == []:
             return 0
@@ -44,6 +46,8 @@ class Profinity_calculator:
 
     def profin_ranker(self, scores):
         remarks = []
+        if scores == None:
+            return  remarks
         for score in scores:
             if score == 0:
                 remarks.append('None')

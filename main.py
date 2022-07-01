@@ -11,7 +11,7 @@ racial_slurs = {
 
 path = "resouces/sampleTweets.csv"
 
-def profinity_checker():
+def profinity_checker(racial_slurs, path):
 
     profin_cal = pc.Profinity_calculator(racial_slurs)
 
@@ -24,4 +24,4 @@ def profinity_checker():
     profin_cal.print_results(csv,profin_ranks)
 
 
-profinity_checker()
+profinity_checker(racial_slurs, path)
